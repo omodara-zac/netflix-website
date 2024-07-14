@@ -1,0 +1,206 @@
+@import url(./responsive.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.top {
+    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.599) 0%, #00000085 100%), url("./pics/first.jpg");
+    /* border: medium solid; */
+    width: 1260px;
+    height: 700px;
+    background-size: contain;
+    position: relative;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+.net {
+    color:red;
+    padding-left: 100px;
+}
+.buttn {
+    width: 70px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    margin-right: 100px;
+}
+
+.movies {
+    
+    font-size: 50px;
+    position: absolute;
+    left: 200px;
+    top: 340px;
+}
+.watch {
+    /* border: solid medium; */
+    font-size: 25px;
+    position: absolute;
+    left: 470px;
+    top: 410px;
+}
+.ready {
+    /* border: solid medium; */
+    font-size: 20px;
+    position: absolute;
+    left: 350px;
+    top: 460px;
+}
+.search-div {
+    /* border: solid medium; */
+    font-size: 20px;
+    position: absolute;
+    left: 360px;
+    top: 520px;
+}
+.search {
+    width: 400px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.523);
+    border: none;
+}
+::placeholder {
+    padding-left: 20px;
+}
+.started {
+    background-color: red;
+    width: 200px;
+    border: none;
+    font-size: 25px;
+}
+.second-sec {
+    border: 10px solid rgb(35,35,35);
+    width: 1260px;
+    height: 640px;
+    background-color: black;
+}
+hr {
+    border: 10px solid red;
+}
+.ray {
+    display: none;
+}
+.tv-part1 {
+   margin-left: -100px;
+}
+.enjoy {
+    font-size: 50px;
+    margin-top: 70px;
+     margin-left: 200px;
+}
+.smart {
+    margin-left: 200px;
+    font-size: 25px;
+}
+.second-sec-div {
+    margin-top: 150px;
+}
+.third-sec {
+    border: 10px solid rgb(35,35,35);
+    width: 1260px;
+    height: 550px;
+    background-color: black;
+}
+.third-sec-div {
+    margin-top: 150px;
+    margin-left: 290px;
+}
+.fourth-sec {
+    border: 10px solid rgb(35,35,35);
+    width: 1260px;
+    height: 350px;
+    background-color: black;
+}
+.fourth-sec-div {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.every {
+    font-size: 50px;
+}
+.stream {
+    font-size: 20px;
+}
+.fifth-sec {
+    border: 10px solid rgb(35,35,35);
+    width: 1260px;
+    height: 550px;
+    background-color: black;
+}
+.fifth-sec-div {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.create {
+    font-size: 50px;
+    margin-top: 70px;
+   
+}
+.send {
+  
+    font-size: 25px;
+}
+.six-sec {
+    border: 10px solid rgb(35,35,35);
+    width: 1260px;
+    height: 850px;
+    background-color: black;
+}
+.faq {
+    font-size: 50px;
+    /* border: medium solid; */
+    width: 700px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.enter {
+    /* border: ; */
+    width: 650px;
+    font-size: 20px;
+}
+.search-sec {
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.523); */
+    border: 1px solid #fff;
+}
+.form {
+    width: 500px;
+    
+}
+footer {
+    border: 10px solid rgb(35,35,35);
+    width: 1260px;
+    height: 550px;
+    background-color: black;
+}
+select {
+    width: 80px;
+    background-color: black;
+}
+.firstlink {
+    line-height: 2.7;
+}
+.lnk {
+    width: 800px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.live-tv {
+    /* border: medium solid; */
+    background-image: url(./pics/tv.png);
+    width: 500px;
+    height: 380px;
+    background-position: contain;
+    background-size: 500px 380px;
+    /* z-index: 1000; */
+}
+.vid  {
+    margin-left: 70px;
+    width: 70px;
+}

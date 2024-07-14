@@ -1,0 +1,135 @@
+@media screen and (max-width:768px) {
+    .top {
+        /* width: 2000px; */
+    }
+
+    .tv {
+        margin-top: -40px;
+        flex-direction: column;
+    }
+
+    .tv-part1 {
+        margin-top: -180px;
+    }
+
+    .enjoy {
+        font-size: 20px;
+        /* border: medium solid; */
+        width: 600px;
+
+    }
+
+    .your {
+        /* border: medium solid; */
+        width: 600px;
+        margin-left: 250px;
+    }
+
+    .smart {
+        font-size: 15px;
+        /* border: medium solid; */
+        width: 950px;
+    }
+/* .more1 {
+    border: medium solid;
+    width: 40px;
+} */
+    .tv-image {
+        width: 400px;
+
+        margin-left: 400px;
+    }
+
+    .break {
+        display: none;
+    }
+
+    .ray {
+        display: block;
+    }
+
+    .second-sec {
+        height: 50000px;
+    }
+
+    .third-sec-div {
+        flex-direction: column;
+        /* gap: -40px; */
+    }
+
+    .tv-part2 {
+        margin-top: -450px;
+    }
+    .down {
+        /* border: medium solid; */
+        font-size: 50px;
+    }
+    .load {
+        /* border: medium solid; */
+        width: 900px;
+        margin-left: -90px;
+    }
+    .save {
+        font-size: 20px;
+    }
+    .fave {
+        /* border: medium solid; */
+        width: 600px;
+        margin-left: 80px;
+    }
+    .strange {
+        /* border: medium solid; */
+        width: 400px;
+        margin-left: 200px;
+        /* margin-top: 100px; */
+        
+    }
+    .everywhere {
+         /* border: medium solid; */
+         width: 500px;
+         margin-left: 250px;
+         margin-bottom: 30px;
+    }
+    .stream2 {
+         /* border: medium solid; */
+         width: 700px;
+         margin-left: 130px;
+    }
+    .fifth-sec-div {
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .kid {
+        width: 400px;
+    }
+    .tv-part3 {
+        margin-top: -320px;
+    }
+     .pro {
+        /* border: medium solid; */
+        margin-top: -240px;
+        width: 600px;
+        margin-left: 300px;
+    }
+     .kid {
+        /* border: medium solid; */
+        margin-top: 170px;
+        margin-left: 340px;
+    } 
+    .kids-pic {
+        border: medium solid;
+        width: 300px;
+        /* margin-top: 300px; */
+    }
+    .charcter {
+        border: medium solid; 
+    }
+    .live-tv {
+        margin-left: 300px;
+        /* background-size: 300px 280px; */
+    }
+    .vid {
+        width: 280px;
+    }
+}
