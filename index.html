@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <section>
+    <section class="hero1">
         <div class="top">
             <div class="d-flex justify-content-between pt-2 net-div">
                 <h1 class="fs-1 fw-bolder net">NETFLIX</h1>
@@ -50,20 +50,23 @@
             </div>
             <div>
                 <div class="live-tv">
-                    <div data-uia="nmhp-card-animation-asset-motion" class="default-ltr-cache-m5f3qu e15c37ii14 vid">
+                    <!-- <div data-uia="nmhp-card-animation-asset-motion" class="default-ltr-cache-m5f3qu e15c37ii14 vid">
                         <video
                             data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop="">
                             <source
                                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-                                type="video/mp4">
+                                type="video/mp4" width="50px">
                         </video>
                         <div class="default-ltr-cache-0"></div>
                         <div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true"
-                            class="default-ltr-cache-0 e15c37ii13"></div>
-                    </div>
-                    <!-- <img src="./pics/tv.png" alt="" width="400px" class="tv-image"> -->
+                            class="default-ltr-cache-0 e15c37ii13"></div> -->
+                    <video autoplay="" playsinline="" muted="" loop=""
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                        width="360px" class="the-vid"></video>
                 </div>
+                <!-- <img src="./pics/tv.png" alt="" width="400px" class="tv-image"> -->
             </div>
+        </div>
 
         </div>
     </section>
@@ -268,7 +271,7 @@
                 <p class=" mx-auto mt-5 enter">Ready to watch? Enter your email to create or restart your membership.
                 </p>
                 <div class="d-flex gap-2 form mx-auto">
-                    <input type="search" class="search-sec" placeholder="Email address">
+                    <input type="search" class="search-sec border" placeholder="Email address">
                     <button class="started">Get started <i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>

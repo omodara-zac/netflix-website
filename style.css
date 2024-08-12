@@ -10,10 +10,10 @@
     /* border: medium solid; */
     width: 1260px;
     height: 700px;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     /* background-position: center; */
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 .net {
     color:red;
@@ -77,9 +77,9 @@
     height: 640px;
     background-color: black;
 }
-hr {
+/* hr {
     border: 10px solid red;
-}
+} */
 .ray {
     display: none;
 }
@@ -89,7 +89,7 @@ hr {
 .enjoy {
     font-size: 50px;
     margin-top: 70px;
-     margin-left: 200px;
+    margin-left: 200px;
 }
 .smart {
     margin-left: 200px;
@@ -203,4 +203,8 @@ select {
 .vid  {
     margin-left: 70px;
     width: 70px;
+}
+.the-vid {
+    margin-left: 70px;
+    margin-top: 75px;
 }

@@ -1,6 +1,13 @@
 @media screen and (max-width:768px) {
+    * {
+        /* width: 100%; */
+    }
+    .hero {
+        
+    }
+    
     .top {
-        /* width: 2000px; */
+        width: 1260px;
     }
 
     .tv {
@@ -15,20 +22,28 @@
     .enjoy {
         font-size: 20px;
         /* border: medium solid; */
+        padding-left: 80px;
         width: 600px;
 
+    }
+    .live-tv {
+        /* margin-left: 250px; */
+        /* border: medium solid; */
+        /* padding-left: 100px; */
     }
 
     .your {
         /* border: medium solid; */
-        width: 600px;
+        /* width: 600px; */
         margin-left: 250px;
     }
 
     .smart {
         font-size: 15px;
         /* border: medium solid; */
-        width: 950px;
+        width: 1000px;
+        margin-left: 130px;
+        padding-left: 80px;
     }
 /* .more1 {
     border: medium solid;
